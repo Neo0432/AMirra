@@ -1,0 +1,109 @@
+.contactUs {
+  display: flex;
+  padding-inline: 24px;
+  padding-bottom: 140px;
+  background-color: #f0f5ff;
+}
+.contactUs-content {
+  display: flex;
+  padding: 48px;
+  gap: 109px;
+  border-radius: 32px;
+  background-color: #ffffff;
+}
+.contactUs-content-leftGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  color: #7f86a3;
+}
+.contactUs-content-leftGroup-textArea {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  & p:first-child {
+    max-width: 500px;
+    font-family: Involve;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.2px;
+    text-align: left;
+    color: #424c70;
+  }
+  & p:last-child {
+    font-family: Involve;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: left;
+  }
+}
+.contactUs-content-leftGroup form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 442px;
+  font-family: Involve;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25.2px;
+  text-align: left;
+  & input,
+  label {
+    font-family: Involve;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.8px;
+    text-align: left;
+  }
+  & input::placeholder {
+    color: #878fa4;
+  }
+  & a {
+    color: #af92cb;
+  }
+  & button {
+    border: none;
+    border-radius: 96px;
+    padding: 22px 48px 20px 48px;
+    background-color: #af92cb;
+    font-family: Involve;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+.contactUs-content-leftGroup-form-textInputs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  & input {
+    border: 1px solid #e9ebf1;
+    border-radius: 32px;
+    padding: 24px 32px 22px 32px;
+    transition: all 1s ease-in-out;
+    &:focus {
+      outline: none;
+      transform: scale(1.04);
+      border-color: #b6c7e8;
+      background-color: #d8e5ff32;
+    }
+  }
+}
+.contactUs-content-leftGroup-form-checkbox {
+  display: flex;
+  gap: 8px;
+  max-width: 300px;
+  & input {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+  }
+}
+.team-buttons {
+  top: 47%;
+  padding-inline: 0;
+  z-index: 3;
+}
